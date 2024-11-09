@@ -1,0 +1,257 @@
+
+
+
+
+
+@media (max-width:600px) {
+    #page{
+        display: block;
+        height: fit-content;
+        width: 100%;
+    }
+    #info{
+        height: 59%;
+        padding: 0;
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+        /* align-items: flex-start; */
+        /* justify-content: center; */
+    }
+    
+    
+    .img-container{
+        width: 26vw;
+        height: 26vw;
+        margin: 2vw;
+        /* background-color: #fff; */
+    }
+
+    
+    .img-container img{
+        border: .28vh solid rgb(255, 244, 150);
+    }
+    
+    #name{
+        height: 12vh;
+        width: 70vh;
+        flex: 1;
+        /* background-color: purple;  */
+        border-bottom: 0 solid rgb(255, 255, 255);
+        margin: 3vw;
+    }
+    
+    #name h1{
+        font-size: 7vw;
+    }
+
+    #name h2{
+        font-size: 4vw;
+    }
+    
+    
+
+
+    #about-me{
+        width: 100%;
+        height: fit-content;
+        padding: 3vw;
+        /* background-color: black; */
+    }
+
+
+        
+    #about-me h1{
+        font-size: 7vw;
+        margin-bottom: 2vw;
+        
+    }
+
+    #about-me p{
+        font-size: 4vw;
+    }
+
+
+
+        
+    #language{
+        height: fit-content;
+        width: 50%;
+        /* padding: ; */
+        /* background-color: #fff; */
+        
+    }
+
+    #language h1{
+        font-size: 4.2vw;
+        font-weight: 500;
+        margin: 3vw;
+        /* background-color: aqua; */
+        
+    }
+    
+    
+    #language ul{
+        width: 100%;
+        margin: 3vw;
+        font-size: 3vw;
+    }
+    
+    
+    
+    #contact{
+        height: fit-content;
+        width: 50%;
+        gap: 1.5vw;
+        /* background-color: brown; */
+    }
+    
+    #contact .elem{
+        gap: 1.5vw;
+        margin-left: 3vw;
+        /* justify-content: space-around; */
+    }
+    
+    #contact h1{
+        font-size: 4.2vw;
+        margin-left: 3vw;
+        margin-top: 3vw;
+    }
+
+    
+    
+    #contact .elem p{
+        font-size: 3vw;
+    }
+
+    #contact .elem i{
+        font-size: 3vw;
+    }
+
+
+
+
+
+
+        
+    #work{
+        width: fit-content;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 5vw;
+    }
+
+
+
+    #work-exp{
+        width: 90%;
+        height: fit-content;
+        /* background-color: lightgoldenrodyellow; */
+        position: relative;
+    }
+    
+    
+    
+    
+    .head{
+        height: fit-content;
+        width: 90%;
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+    
+    .head h1{
+        font-size: 7vw;
+        margin-bottom: 2vw;
+    }
+    
+    #sub-head{
+        margin-top: 3vw;
+        margin-left: 3vw;
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+    }
+    
+    #sub-head .elem h2{
+        font-size: 6vw;
+    }
+    
+    
+    
+    #sub-head .elem h3{
+        font-size: 3.5vw;    
+    }
+    
+    
+    #sub-head .elem p{
+        font-size: 3.5vw;
+    }
+    
+    
+    #edu{
+        gap: 1vw;
+        width: 90%;
+        height: fit-content;
+        /* background-color: lightgoldenrodyellow; */
+        position: relative;
+    }
+    
+    
+    
+    
+    #edu #sub-head .elem h2{
+        font-size: 4vw;
+    }
+    
+    
+    
+    #edu #sub-head .elem h3{
+        font-size: 3.5vw;
+    }
+    
+    
+    #skill{
+        width: 90%;
+    }
+
+    #skill #sub-head{
+        gap: 1vw;
+        width: 90%;
+        height: fit-content;
+    
+    }
+
+            
+    #sep{
+        /* background-color: rebeccapurple; */
+        width: 90%;
+        height: fit-content;
+        justify-content: space-between;
+
+    }
+
+    #button{
+        width: 30vw;
+        height: 6vw;
+        font-size: 3vw;
+    }
+
+
+
+    #skill ul{
+        font-size: 4vw;
+    }
+
+
+    
+
+
+
+
+
+
+}
